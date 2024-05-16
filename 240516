@@ -1,0 +1,92 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("hi");
+        //자바가 동작하는가 확인
+		//cmd에서 dir해서 cd로 확인할 수 있음.
+		
+		int 숫자 = 3;
+		System.out.println( 숫자 +"");
+		
+		int 숫자2 ;
+		 //System.out.println( 숫자2 + "" ); // 초기값이 없으므로 오류가 난다.
+		
+		숫자2 = 숫자;
+		System.out.println( 숫자2 + "" );
+		//int의 초기값은 1
+		
+		int ghgh ;
+		 //System.out.println( 숫자2 + "" ); // 초기값이 없으므로 오류가 난다.
+		
+		ghgh = 숫자;
+		System.out.println( ghgh + "" );
+		//int의 초기값은 1
+		
+/*주석 배우기
+*		여럽줄 ㅂ주석을 배우기 위한 탄출기
+*	변수/어쩌구저꾸이건 줄임말도 가능한 주석
+*		ㅈ
+*		ㅈ
+*/	
+		
+		int aass;
+		int AASS;//대소문자를 구분한다.
+		
+		//상수 ->값이 절대 바뀌지 않는 것
+		
+		final int qqqq = 100;/////파이널 절댑값이다.변하지 않는 수
+
+		int 몸무게 = 78;
+	    float 실수 = 몸무게;
+		몸무게 = (int)실수;
+		
+//		int 몸무게 = 78;
+//	    float 실수 = (float)몸무게;
+//		double 몸무게2 = 80;//값이 올라간다. 
+//		변수 상수 에관해서 배움
+		
+		int 변수 = 0;
+		System.out.println(변수);//0전위++연산자
+		int aa = ++변수;
+		System.out.println(변수);//1
+		System.out.println(aa+"전위연산자의 변경 후 값입니다");//1
+		
+		int 변수1 = 0;//++후위연산자
+		int aa1 = 변수1++;
+		System.out.println(변수1);//1
+		System.out.println(aa1+"후위연산자의 변경 전 값입니다");//1
+		
+		int a = 1;
+		int b = 0;
+		int c= a + b;
+		int d = 5;
+		d += 2;
+		System.out.println(d );
+		d+= a+b;
+		System.out.println(d );
+
+		
+		System.out.println("_________________________________" );
+		int no = 10;
+		
+		no =no+2;
+		System.out.println(no+"_____no+2 의값" );
+		no += 2;
+		System.out.println(no+"_____+= 2; 의값" );
+		no -= 2;
+		System.out.println(no+"_____-= 2; 의값" );
+		no *= 2;
+		System.out.println(no+"_____*= 2; 의값" );
+		no /= 2;
+		System.out.println(no+"_____/= 2; 의값" );
+		no %= 2;
+		System.out.println(no+"_____%= 2; 의값" );
+				
+		
+		
+		
+		
+	}
+
+}
