@@ -10,14 +10,14 @@ public class Test {
 		System.out.println( 숫자 +"");
 		
 		int 숫자2 ;
-		 //System.out.println( 숫자2 + "" ); // 초기값이 없으므로 오류가 난다.
+		 //System.out.println( 숫자2 + "" ); 
 		
 		숫자2 = 숫자;
 		System.out.println( 숫자2 + "" );
 		//int의 초기값은 1
 		
 		int ghgh ;
-		 //System.out.println( 숫자2 + "" ); // 초기값이 없으므로 오류가 난다.
+		 //System.out.println( 숫자2 + "" ); 
 		
 		ghgh = 숫자;
 		System.out.println( ghgh + "" );
