@@ -41,7 +41,79 @@ public class Test240517 {
       		}else {
       			System.out.println("a와b는 다르다.");	
       		}
-      		
+///////////////////////문제 참참 거짓거짓참 만들기//////////////////////////////////////////////////////////////////////	
+			int i=5;
+			int e=3;
+			
+			if (i>e) {
+				System.out.println("참 i=5");
+				}
+			else if(!(i>e)){
+				System.out.println("거짓");
+			}
+			//참
+			if (i>=e) {
+				System.out.println("참 i=5---");
+				}
+			else if(!(i>=e)){
+				System.out.println("거짓");
+			}
+			//참
+			if (!(i>=e)) {
+				System.out.println("참i=5");
+				}
+			else if(i>=e){
+				System.out.println("거짓 e=3");
+			}
+			//거짓
+			if (i<=e) {
+				System.out.println("참i=5");
+				}
+			else {
+				System.out.println("거짓 e=3---");
+			}
+			//거짓
+			if (!(i==e)) {
+				System.out.println("참 i=5");
+				}
+			else if(i==e){
+				System.out.println("거짓");
+			}
+			//참
+			if (i!=e) {
+				System.out.println("참 i=5---");
+				}
+			else if(!(i!=e)){
+				System.out.println("거짓");
+			}
+			//참
+			
+			
+			//if는 논리
+///////////////스위치//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 조건문 스위치
+//		
+//		  
+//		  int i =1;
+//		 
+//		  switch(i) {//(연산의 영역) case 1: System.out.println("값이 1입니다."); break; case 2:
+//		  System.out.println("값이 1이 아닙니다."); break; default:
+//		  System.out.println("값이 1이 아닙니다."); //범위고정된 기능, 고정된 몇개밖의 케이스일때 스위치 1이면 올려라 2면
+//		  내려라 같은 고정된 //if 는 다양한 것 }
+//		 
+		Scanner a = new Scanner(System.in);
+		//System.out.println(a.nextInt());\\
+		
+		switch (a.nextInt()) {// (연산의 영역)
+		case 1:	System.out.println("값이 1입니다.");
+			break;
+		default:
+			System.out.println("값이 1이 아닙니다.");
+
+		}
+		
+
 	}
 
 }
