@@ -1,0 +1,47 @@
+
+public class Test240517 {
+
+	public static void main(String[] args) {
+	
+		System.out.println("240517 2일차");
+		System.out.println("hi");
+		
+			boolean 논리값 = true;
+			
+		
+			/*if(true) {
+			
+			System.out.println("참");
+			//무조건 실행할때 씀		
+			논리값 = false;
+			//62번에서 값을 바꾸어 버려서 68번이 실행이 안ㄱ됨
+		}
+		
+		
+      		//선언
+      		if(논리값) {
+      			System.out.println("논리값이 참이다.");
+      			//무조건 실행할때 씀		
+      		} 컨트롤 쉬프르 물음표가 통 주석만들기
+      		*/
+      		
+      		if(!논리값) {
+      			System.out.println("부정의 논리값.");
+      			//!부정의 의미이므로
+      		}
+      		
+      		int a,b;//변수 두개만듦
+      		a = 5;
+      		b = ++a;
+      		System.out.println(a+":"+b);	
+      		
+      		if(a == b) {
+      			System.out.println("a와b는 같다.");	
+      			//증감식을 써서 a의 값이 증가 6으로 바뀜
+      		}else {
+      			System.out.println("a와b는 다르다.");	
+      		}
+      		
+	}
+
+}
